@@ -47,13 +47,15 @@ public class practical4{
       System.out.println(); 
    }
    static void oneofyourMethods(int n,int[] anyArr,int target){
-      static int linearsearch(int[] anyArr, int target){
+    
+      }
+   static int linearsearch(int[] anyArr, int target){
          for(int i=0;i<=anyArr.length-1;i++){
             if(anyArr[i]==target){return target;}
          }
          return -1;
-      }
-      static int binarysearch(int[] anyArr,int target){
+   }
+   static int binarysearch(int[] anyArr,int target){
          int end= anyArr.length-1;
          int start;
          int midNum= (start+end)/2;
@@ -63,5 +65,5 @@ public class practical4{
             else{end=midNum-1;} 
          }
          return-1;
-      }
    }
+}
