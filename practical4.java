@@ -61,9 +61,7 @@ public class practical4{
             if(anyArr[midNum]==target){return midNum;}
             else if (anyArr[midNum]<target){start=midNum+1;}
             else{end=midNum-1;} 
-            }
-      }
+         }
          return-1;
       }
-   }
    }
